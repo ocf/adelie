@@ -4,6 +4,17 @@ contact_info = "https://github.com/ocf/adelie"
 dry_run = false
 
 [[repo]]
+github_id = "ocf/fava"
+
+  [[repo.software]]
+  name = "fava"
+  changelog = "https://github.com/beancount/fava/blob/master/CHANGES"
+  file = "kubernetes/fava.yml.erb"
+  regex = "(?<=image: \"yegle/fava:version-)(.*)(?=\")"
+  type = "relmon"
+  id = "51418"
+
+[[repo]]
 github_id = "ocf/grafana"
 
   [[repo.software]]
