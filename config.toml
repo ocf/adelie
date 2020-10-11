@@ -123,3 +123,14 @@ github_id = "ocf/thelounge"
   regex = "(?<=FROM thelounge/thelounge:)(.*)(?=\n)"
   type = "npm"
   id = "thelounge"
+
+[[repo]]
+github_id = "ocf/pma"
+
+  [[repo.software]]
+  name = "phpmyadmin"
+  changelog = "https://www.phpmyadmin.net/files/{0}"
+  file = "Makefile"
+  regex = "(?<=PMA_VERSION := )(.*)(?=\n)"
+  type = "relmon"
+  id = "3628"
