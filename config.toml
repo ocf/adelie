@@ -35,6 +35,7 @@ github_id = "ocf/grafana"
   regex = "(?<=GF_VERSION := )(.*)(?=\n)"
   type = "relmon"
   id = "13916"
+  filter = "beta"
 
 [[repo]]
 github_id = "ocf/kafka"
