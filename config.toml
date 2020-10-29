@@ -135,3 +135,15 @@ github_id = "ocf/pma"
   regex = "(?<=PMA_VERSION := )(.*)(?=\n)"
   type = "relmon"
   id = "3628"
+
+[[repo]]
+github_id = "ocf/puppet"
+
+  [[repo.software]]
+  name = "node_exporter"
+  changelog = "https://github.com/prometheus/node_exporter/releases/tag/v{0}"
+  file = "hieradata/common.yaml"
+  regex = "(?<=prometheus::node_exporter::version: )(.*)(?=\n)"
+  type = "relmon"
+  id = "98081"
+  filter = "rc"
