@@ -4,17 +4,6 @@ contact_info = "https://github.com/ocf/adelie"
 dry_run = false
 
 [[repo]]
-github_id = "ocf/badgr"
-
-  [[repo.software]]
-  name = "badgr"
-  changelog = "https://github.com/concentricsky/badgr-server/releases/tag/v{0}"
-  file = "Makefile"
-  regex = "(?<=API_VERSION := v)(.*)(?=\n)"
-  type = "relmon"
-  id = "127518"
-
-[[repo]]
 github_id = "ocf/fava"
 
   [[repo.software]]
