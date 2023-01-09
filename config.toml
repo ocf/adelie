@@ -50,18 +50,6 @@ github_id = "ocf/keycloak"
   id = "20430"
 
 [[repo]]
-github_id = "ocf/sourcegraph"
-
-  [[repo.software]]
-  name = "sourcegraph"
-  changelog = "https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md"
-  file = "kubernetes/sourcegraph.yaml.erb"
-  regex = "(?<=image: \"sourcegraph/server:)(.*)(?=\")"
-  type = "relmon"
-  id = "126322"
-  filter = "rc"
-
-[[repo]]
 github_id = "ocf/matrix"
 
   [[repo.software]]
